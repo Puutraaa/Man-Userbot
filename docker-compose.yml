@@ -25,3 +25,5 @@ services:
       DATABASE_URL: $DATABASE_URL 
 
       PM_AUTO_BAN: $PM_AUTO_BAN
+
+      ALIVE_LOGO: $ALIVE_LOGO

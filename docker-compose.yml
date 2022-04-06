@@ -27,3 +27,5 @@ services:
       PM_AUTO_BAN: $PM_AUTO_BAN
 
       ALIVE_LOGO: $ALIVE_LOGO
+      
+      SUDO_USERS: $SUDO_USERS

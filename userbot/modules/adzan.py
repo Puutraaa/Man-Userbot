@@ -25,7 +25,7 @@ async def get_adzan(adzan):
     result = json.loads(request.text)
     catresult = f"<b>Jadwal Shalat Hari Ini:</b>\
             \n<b>📆 Tanggal </b><code>{result['items'][0]['date_for']}</code>\
-            \n<b>📍 Kota</b> <code>{result['query']}</code> | <code>{result['country']}</code>\
+            \n<b>🌎 Kota</b> <code>{result['query']}</code> | <code>{result['country']}</code>\
             \n\n<b>Terbit  : </b><code>{result['items'][0]['shurooq']}</code>\
             \n<b>Subuh : </b><code>{result['items'][0]['fajr']}</code>\
             \n<b>Zuhur  : </b><code>{result['items'][0]['dhuhr']}</code>\
